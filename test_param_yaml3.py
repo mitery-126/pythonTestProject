@@ -9,17 +9,6 @@ class TestDemo:
     with open("./data.yml") as f:
         datas = yaml.safe_load(f)
 
-
-    # def get_datas():
-        # print(datas)
-        #
-        # add_datas = datas["add"]
-        # minus_datas = datas["minus"]
-        # times_datas = datas["times"]
-        # into_datas = datas["into"]
-        # my_ids = datas["myids"]
-        # return [add_datas,  minus_datas, times_datas, into_datas, my_ids]
-
     def setup_method(self):
       print("setup_method:开始计算")
 
